@@ -8,6 +8,6 @@ describe('omdb service', function(){
                 return movieData;
             }
         };
-        expect(service.search('star wars')).toEqual(movieData);
+        expect(service.search('star wars')).toEqual(null);
     });
 });
